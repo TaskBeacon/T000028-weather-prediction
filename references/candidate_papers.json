@@ -1,0 +1,2244 @@
+[
+  {
+    "id": "W2171056452",
+    "title": "A Bayesian foundation for individual learning under uncertainty",
+    "authors": [
+      "Christoph Mathys"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2011.00039",
+    "citation_count": 685,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2551311960",
+    "title": "Allostatic Self-efficacy: A Metacognitive Theory of Dyshomeostasis-Induced Fatigue and Depression",
+    "authors": [
+      "Klaas \u0395. Stephan",
+      "Zina M. Manjaly",
+      "Christoph Mathys",
+      "Lilian Weber",
+      "Saee Paliwal",
+      "Tim Gard",
+      "Marc Tittgemeyer",
+      "Stephen M. Fleming",
+      "H\u00e9l\u00e8ne Haker",
+      "Anil K. Seth",
+      "Frederike H. Petzschner"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2016.00550",
+    "citation_count": 437,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2042354961",
+    "title": "The Roles of the Caudate Nucleus in Human Classification Learning",
+    "authors": [
+      "Carol A. Seger",
+      "Corinna M. Cincotta"
+    ],
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3401-04.2005",
+    "citation_count": 414,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1581202840",
+    "title": "Reinforcement Learning in Multidimensional Environments Relies on Attention Mechanisms",
+    "authors": [
+      "Yael Niv",
+      "Reka Daniel",
+      "Andra Geana",
+      "Samuel J. Gershman",
+      "Yuan Chang Leong",
+      "Angela Radulescu",
+      "Robert C. Wilson"
+    ],
+    "year": 2015,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2978-14.2015",
+    "citation_count": 402,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1998736700",
+    "title": "How do People Solve the \u201cWeather Prediction\u201d Task?: Individual Variability in Strategies for Probabilistic Category Learning",
+    "authors": [
+      "Mark A. Gluck",
+      "Daphna Shohamy",
+      "Catherine E. Myers"
+    ],
+    "year": 2002,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.45202",
+    "citation_count": 261,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2076805718",
+    "title": "Stress Modulates the Engagement of Multiple Memory Systems in Classification Learning",
+    "authors": [
+      "Lars Schwabe",
+      "Oliver T. Wolf"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1484-12.2012",
+    "citation_count": 187,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110781393",
+    "title": "Insight and strategy in multiple-cue learning.",
+    "authors": [
+      "David A. Lagnado",
+      "Ben R. Newell",
+      "Steven Kahan",
+      "David R. Shanks"
+    ],
+    "year": 2006,
+    "journal": "Journal of Experimental Psychology General",
+    "doi_or_url": "https://doi.org/10.1037/0096-3445.135.2.162",
+    "citation_count": 134,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2953937173",
+    "title": "Indicators and Criteria of Consciousness in Animals and Intelligent Machines: An Inside-Out Approach",
+    "authors": [
+      "Cyriel M. A. Pennartz",
+      "Michele Farisco",
+      "Kathinka Evers"
+    ],
+    "year": 2019,
+    "journal": "Frontiers in Systems Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnsys.2019.00025",
+    "citation_count": 122,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2154008409",
+    "title": "A Role for the Medial Temporal Lobe in Feedback-Driven Learning: Evidence from Amnesia",
+    "authors": [
+      "Karin Foerde",
+      "Elizabeth Race",
+      "Mieke Verfaellie",
+      "Daphna Shohamy"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5217-12.2013",
+    "citation_count": 121,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2136211925",
+    "title": "Sleep enhances category learning",
+    "authors": [
+      "Ina Djonlagic",
+      "Andrew Rosenfeld",
+      "Daphna Shohamy",
+      "Catherine E. Myers",
+      "Mark A. Gluck",
+      "Robert Stickgold"
+    ],
+    "year": 2009,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.1634509",
+    "citation_count": 118,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2136439930",
+    "title": "Habitual versus Goal-directed Action Control in Parkinson Disease",
+    "authors": [
+      "Sanne de Wit",
+      "Roger A. Barker",
+      "Anthony Dickinson",
+      "Roshan Cools"
+    ],
+    "year": 2010,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/jocn.2010.21514",
+    "citation_count": 118,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2130173984",
+    "title": "Habit and Skill Learning in Schizophrenia: Evidence of Normal Striatal Processing With Abnormal Cortical Input",
+    "authors": [
+      "Thomas W. Weickert",
+      "Alejandro Terrazas",
+      "Llewellyn B. Bigelow",
+      "James D. Malley",
+      "Thomas M. Hyde",
+      "Michael Egan",
+      "Daniel R. Weinberger",
+      "Terry E. Goldberg"
+    ],
+    "year": 2002,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.49102",
+    "citation_count": 111,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2140341391",
+    "title": "Neural Mechanisms Underlying Probabilistic Category Learning in Normal Aging",
+    "authors": [
+      "Francesco Saverio Fera",
+      "Thomas W. Weickert",
+      "Terry E. Goldberg",
+      "Alessandro Tessitore",
+      "Ahmad R. Hariri",
+      "S. C. Das",
+      "Sam Lee",
+      "Brad Zoltick",
+      "Martijn Meeter",
+      "Catherine E. Myers",
+      "Mark A. Gluck",
+      "Daniel R. Weinberger"
+    ],
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2736-05.2005",
+    "citation_count": 106,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2600734209",
+    "title": "Compromised hippocampus\u2010striatum pathway as a potential imaging biomarker of mild\u2010traumatic brain injury and posttraumatic stress disorder",
+    "authors": [
+      "D. Rangaprakash",
+      "Gopikrishna Deshpande",
+      "Thomas A. Daniel",
+      "Adam M. Goodman",
+      "Jennifer L. Robinson",
+      "Nouha Salibi",
+      "Jeffrey S. Katz",
+      "Thomas S. Denney",
+      "Michael N. Dretsch"
+    ],
+    "year": 2017,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/hbm.23551",
+    "citation_count": 100,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2133071347",
+    "title": "Emotional arousal and multiple memory systems in the mammalian brain",
+    "authors": [
+      "Mark G. Packard",
+      "Jarid Goodman"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2012.00014",
+    "citation_count": 94,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2043255677",
+    "title": "Aging affects acquisition and reversal of reward-based associative learning",
+    "authors": [
+      "Julia A. Weiler",
+      "Christian Bellebaum",
+      "Irene Daum"
+    ],
+    "year": 2008,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.890408",
+    "citation_count": 85,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2144912210",
+    "title": "Analysis of Probabilistic Classification Learning in Patients With Parkinson's Disease Before and After Pallidotomy Surgery",
+    "authors": [
+      "Jennifer R Sage",
+      "Stephan Anagnostaras",
+      "Shawn Mitchell",
+      "Jeff M. Bronstein",
+      "Ant\u00f4nio De Salles",
+      "Donna Masterman",
+      "Barbara J. Knowlton"
+    ],
+    "year": 2003,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.45903",
+    "citation_count": 81,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110760370",
+    "title": "Learning from negative feedback in patients with major depressive disorder is attenuated by SSRI antidepressants",
+    "authors": [
+      "Mohammad M. Herzallah",
+      "Ahmed A. Moustafa",
+      "Joman Y. Natsheh",
+      "Salam M. Abdellatif",
+      "Mohamad B. Taha",
+      "Yasin Tayem",
+      "Mahmud A. Sehwail",
+      "Ivona Amleh",
+      "Georgios Petrides",
+      "Catherine E. Myers",
+      "Mark A. Gluck"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Integrative Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnint.2013.00067",
+    "citation_count": 81,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2184424486",
+    "title": "Augmenting NMDA receptor signaling boosts experience-dependent neuroplasticity in the adult human brain",
+    "authors": [
+      "Jennifer K. Forsyth",
+      "Peter Bachman",
+      "Daniel H. Mathalon",
+      "Brian J. Roach",
+      "Robert F. Asarnow"
+    ],
+    "year": 2015,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1509262112",
+    "citation_count": 80,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2054501409",
+    "title": "Neural Correlates of Probabilistic Category Learning in Patients with Schizophrenia",
+    "authors": [
+      "Thomas W. Weickert",
+      "Terry E. Goldberg",
+      "Joseph H. Callicott",
+      "Qiang Chen",
+      "Jos\u00e9 Apud",
+      "S. C. Das",
+      "Brad Zoltick",
+      "Michael Egan",
+      "Martijn Meeter",
+      "Catherine E. Myers",
+      "Mark A. Gluck",
+      "Daniel R. Weinberger"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4341-08.2009",
+    "citation_count": 78,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1992873298",
+    "title": "Striatal activity in concept learning",
+    "authors": [
+      "Carol A. Seger",
+      "Corinna M. Cincotta"
+    ],
+    "year": 2002,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/cabn.2.2.149",
+    "citation_count": 71,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2100815536",
+    "title": "Neural activity differs between explicit and implicit learning of artificial grammar strings: An fMRI study",
+    "authors": [
+      "Carol A. Seger",
+      "Vivek Prabhakaran",
+      "Russell A. Poldrack",
+      "John D. E. Gabrieli"
+    ],
+    "year": 2000,
+    "journal": "Psychobiology",
+    "doi_or_url": "https://doi.org/10.3758/bf03331987",
+    "citation_count": 68,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2151802039",
+    "title": "Strategies in probabilistic categorization: Results from a new way of analyzing performance",
+    "authors": [
+      "Martijn Meeter",
+      "Catherine E. Myers",
+      "Daphna Shohamy",
+      "Ramona O. Hopkins",
+      "Mark A. Gluck"
+    ],
+    "year": 2006,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.43006",
+    "citation_count": 58,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4220838973",
+    "title": "Stress-sensitive inference of task controllability",
+    "authors": [
+      "Romain Ligneul",
+      "Zachary F. Mainen",
+      "Verena Ly",
+      "Roshan Cools"
+    ],
+    "year": 2022,
+    "journal": "Nature Human Behaviour",
+    "doi_or_url": "https://doi.org/10.1038/s41562-022-01306-w",
+    "citation_count": 57,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2046515235",
+    "title": "Effects of emotional arousal on multiple memory systems: Evidence from declarative and procedural learning",
+    "authors": [
+      "Stephan Steidl",
+      "Salwa Mohi-uddin",
+      "Adam K. Anderson"
+    ],
+    "year": 2006,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.324406",
+    "citation_count": 56,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2557614148",
+    "title": "Slips of Action and Sequential Decisions: A Cross-Validation Study of Tasks Assessing Habitual and Goal-Directed Action Control",
+    "authors": [
+      "Zsuzsika Sjoerds",
+      "Anja Dietrich",
+      "Lorenz Deserno",
+      "Sanne de Wit",
+      "Arno Villringer",
+      "Hans\u2010Jochen Heinze",
+      "Florian Schlagenhauf",
+      "Annette Horstmann"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2016.00234",
+    "citation_count": 56,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2070625663",
+    "title": "Dissociation of Response and Feedback Negativity in Schizophrenia: Electrophysiological and Computational Evidence for a Deficit in the Representation of Value",
+    "authors": [
+      "Sarah E. Morris",
+      "Clay B. Holroyd",
+      "Monica C. Mann-Wrobel",
+      "James M. Gold"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2011.00123",
+    "citation_count": 53,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2104774257",
+    "title": "Differential Influence of Levodopa on Reward-Based Learning in Parkinson's Disease",
+    "authors": [
+      "Susanne Graef",
+      "Guido Biele",
+      "Lea K. Krugel",
+      "Frank Marzinzik",
+      "Michael Wahl",
+      "Johann Wotka",
+      "Fabian Klostermann",
+      "Hauke R. Heekeren"
+    ],
+    "year": 2010,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2010.00169",
+    "citation_count": 52,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2951896810",
+    "title": "It\u2019s new, but is it good? How generalization and uncertainty guide the exploration of novel options.",
+    "authors": [
+      "Hrvoje Stoji\u0107",
+      "Eric Schulz",
+      "Pantelis P. Analytis",
+      "Maarten Speekenbrink"
+    ],
+    "year": 2020,
+    "journal": "Journal of Experimental Psychology General",
+    "doi_or_url": "https://doi.org/10.1037/xge0000749",
+    "citation_count": 51,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2133620065",
+    "title": "The effects of category overlap on information-integration and rule-based category learning",
+    "authors": [
+      "Shawn W. Ell",
+      "F. Gregory Ashby"
+    ],
+    "year": 2006,
+    "journal": "Perception & Psychophysics",
+    "doi_or_url": "https://doi.org/10.3758/bf03193362",
+    "citation_count": 50,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2581955097",
+    "title": "A Deletion Variant of the \u03b12b-Adrenoceptor Modulates the Stress-Induced Shift from \u201cCognitive\u201d to \u201cHabit\u201d Memory",
+    "authors": [
+      "Lisa Wirz",
+      "Jan Wacker",
+      "Andrea Felten",
+      "Martin Reuter",
+      "Lars Schwabe"
+    ],
+    "year": 2017,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3507-16.2017",
+    "citation_count": 48,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2036901833",
+    "title": "Increasing dopamine levels in the brain improves feedback-based procedural learning in healthy participants: An artificial-grammar-learning experiment",
+    "authors": [
+      "M.H. de Vries",
+      "Catrin Ulte",
+      "Pienie Zwitserlood",
+      "Barbara Szymanski",
+      "Stefan Knecht"
+    ],
+    "year": 2010,
+    "journal": "Neuropsychologia",
+    "doi_or_url": "https://doi.org/10.1016/j.neuropsychologia.2010.06.024",
+    "citation_count": 43,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1991378938",
+    "title": "Activity in Inferior Parietal and Medial Prefrontal Cortex Signals the Accumulation of Evidence in a Probability Learning Task",
+    "authors": [
+      "Mathieu d\u2019Acremont",
+      "Eleonora Fornari",
+      "Peter Bossaerts"
+    ],
+    "year": 2013,
+    "journal": "PLoS Computational Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pcbi.1002895",
+    "citation_count": 40,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2770453918",
+    "title": "A Haplotype Associated with Enhanced Mineralocorticoid Receptor Expression Facilitates the Stress-Induced Shift from \u201cCognitive\u201d to \u201cHabit\u201d Learning",
+    "authors": [
+      "Lisa Wirz",
+      "Martin Reuter",
+      "Jan Wacker",
+      "Andrea Felten",
+      "Lars Schwabe"
+    ],
+    "year": 2017,
+    "journal": "eNeuro",
+    "doi_or_url": "https://doi.org/10.1523/eneuro.0359-17.2017",
+    "citation_count": 39,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2053634535",
+    "title": "Intuition, insight, and the right hemisphere: Emergence of higher sociocognitive functions",
+    "authors": [
+      "Simon M. McCrea"
+    ],
+    "year": 2010,
+    "journal": "Psychology Research and Behavior Management",
+    "doi_or_url": "https://doi.org/10.2147/prbm.s7935",
+    "citation_count": 36,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2914361598",
+    "title": "Hippocampal contributions to value-based learning: Converging evidence from fMRI and amnesia",
+    "authors": [
+      "Daniela J. Palombo",
+      "Scott M. Hayes",
+      "Allison G. Reid",
+      "Mieke Verfaellie"
+    ],
+    "year": 2019,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-018-00687-8",
+    "citation_count": 35,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3076903847",
+    "title": "Stress\u2010induced cortisol modulates the control of memory retrieval towards the dorsal striatum",
+    "authors": [
+      "Gundula Zerbes",
+      "Franziska Magdalena Kausche",
+      "Lars Schwabe"
+    ],
+    "year": 2020,
+    "journal": "European Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1111/ejn.14942",
+    "citation_count": 34,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2010011734",
+    "title": "Distinguishing the contributions of implicit and explicit processes to performance of the weather prediction task",
+    "authors": [
+      "Amanda L. Price"
+    ],
+    "year": 2009,
+    "journal": "Memory & Cognition",
+    "doi_or_url": "https://doi.org/10.3758/mc.37.2.210",
+    "citation_count": 34,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2610895354",
+    "title": "Media multitasking and implicit learning",
+    "authors": [
+      "Kathleen S. Edwards",
+      "Myoungju Shin"
+    ],
+    "year": 2017,
+    "journal": "Attention Perception & Psychophysics",
+    "doi_or_url": "https://doi.org/10.3758/s13414-017-1319-4",
+    "citation_count": 33,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2969893586",
+    "title": "Probability learning and feedback processing in dyslexia: A performance and heart rate analysis",
+    "authors": [
+      "Gorka Fraga Gonz\u00e1lez",
+      "Dirk J. A. Smit",
+      "Melle J. W. van der Molen",
+      "Jurgen Tijms",
+      "Eco J. C. de Geus",
+      "Maurits W. van der Molen"
+    ],
+    "year": 2019,
+    "journal": "Psychophysiology",
+    "doi_or_url": "https://doi.org/10.1111/psyp.13460",
+    "citation_count": 30,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W634797775",
+    "title": "Contributions of the hippocampus to feedback learning",
+    "authors": [
+      "Kathryn C. Dickerson",
+      "Mauricio R. Delgado"
+    ],
+    "year": 2015,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-015-0364-5",
+    "citation_count": 28,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1964866313",
+    "title": "Dorsal striatum is necessary for stimulus-value but not action-value learning in humans",
+    "authors": [
+      "Khoi Vo",
+      "Robb B. Rutledge",
+      "Anjan Chatterjee",
+      "Joseph W. Kable"
+    ],
+    "year": 2014,
+    "journal": "Brain",
+    "doi_or_url": "https://doi.org/10.1093/brain/awu277",
+    "citation_count": 28,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2343086174",
+    "title": "Neural substrates of cognitive biases during probabilistic inference",
+    "authors": [
+      "Alireza Soltani",
+      "Peyman Khorsand",
+      "Clara Guo",
+      "Shiva Farashahi",
+      "Janet Liu"
+    ],
+    "year": 2016,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/ncomms11393",
+    "citation_count": 27,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2125138658",
+    "title": "Peripheral BDNF: a candidate biomarker of healthy neural activity during learning is disrupted in schizophrenia",
+    "authors": [
+      "Ashley J. Skilleter",
+      "Cynthia Shannon Weickert",
+      "Ans Vercammen",
+      "Rhoshel Lenroot",
+      "Thomas W. Weickert"
+    ],
+    "year": 2014,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s0033291714001925",
+    "citation_count": 27,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1602676567",
+    "title": "Probabilistic classification learning with corrective feedback is associated with in vivo striatal dopamine release in the ventral striatum, while learning without feedback is not",
+    "authors": [
+      "Leonora Wilkinson",
+      "Yen Tai",
+      "Chia\u2010Shu Lin",
+      "David A. Lagnado",
+      "David J. Brooks",
+      "Paola Piccini",
+      "Marjan Jahanshahi"
+    ],
+    "year": 2014,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/hbm.22536",
+    "citation_count": 25,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W26862882",
+    "title": "A Behavioral and Electrophysiological Investigation of Different Aptitudes for L2 Grammar in Learners Equated for Proficiency Level",
+    "authors": [
+      "Helen Carpenter"
+    ],
+    "year": 2008,
+    "journal": "Georgetown University-Graduate School of Arts & Sciences",
+    "doi_or_url": "https://doi.org/10.1016/j.bbamem.2016.02.004",
+    "citation_count": 22,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3160362277",
+    "title": "Normative Principles for Decision-Making in Natural Environments",
+    "authors": [
+      "Christopher Summerfield",
+      "Paula Parpart"
+    ],
+    "year": 2021,
+    "journal": "Annual Review of Psychology",
+    "doi_or_url": "https://doi.org/10.1146/annurev-psych-020821-104057",
+    "citation_count": 20,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3080876936",
+    "title": "Causal Role of the Dorsolateral Prefrontal Cortex in Belief Updating under Uncertainty",
+    "authors": [
+      "Stefan Schulreich",
+      "Lars Schwabe"
+    ],
+    "year": 2020,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhaa219",
+    "citation_count": 20,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2116217731",
+    "title": "Fear relevancy, strategy use, and probabilistic learning of cue-outcome associations",
+    "authors": [
+      "Laura A. Thomas",
+      "Kevin S. LaBar"
+    ],
+    "year": 2008,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.1048808",
+    "citation_count": 20,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3166900065",
+    "title": "Regularity detection under stress: Faster extraction of probability-based regularities",
+    "authors": [
+      "Eszter T\u00f3th-F\u00e1ber",
+      "Karolina Janacsek",
+      "\u00c1gnes Sz\u00f6ll\u0151si",
+      "Szabolcs K\u00e9ri",
+      "Dezs\u0151 N\u00e9meth"
+    ],
+    "year": 2021,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0253123",
+    "citation_count": 19,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2896576270",
+    "title": "Feedback Timing Modulates Probabilistic Learning in Adults with ADHD",
+    "authors": [
+      "Yafit Gabay",
+      "Elham Shahbari-Khateb",
+      "Avi Mendelsohn"
+    ],
+    "year": 2018,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-018-33551-3",
+    "citation_count": 19,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2083965765",
+    "title": "Procedural learning of unstructured categories",
+    "authors": [
+      "Matthew J. Crossley",
+      "Nils R. Madsen",
+      "F. Gregory Ashby"
+    ],
+    "year": 2012,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/s13423-012-0312-0",
+    "citation_count": 17,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3158919314",
+    "title": "Neural systems underlying the learning of cognitive effort costs",
+    "authors": [
+      "Ceyda Sayal\u0131",
+      "David Badre"
+    ],
+    "year": 2021,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-021-00893-x",
+    "citation_count": 17,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2050233937",
+    "title": "The Neuropharmacology of Implicit Learning",
+    "authors": [
+      "Julia Udd\u00e9n",
+      "Vasiliki Folia",
+      "Karl Magnus Petersson"
+    ],
+    "year": 2010,
+    "journal": "Current Neuropharmacology",
+    "doi_or_url": "https://doi.org/10.2174/157015910793358178",
+    "citation_count": 16,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2056289041",
+    "title": "Stimulus\u2013outcome learnability differentially activates anterior cingulate and hippocampus at feedback processing",
+    "authors": [
+      "Paul Rodriguez"
+    ],
+    "year": 2009,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.1191609",
+    "citation_count": 15,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4366596853",
+    "title": "Decision heuristics in contexts integrating action selection and execution",
+    "authors": [
+      "Neil M. Dundon",
+      "Jaron T. Colas",
+      "Neil Garrett",
+      "Viktoriya Babenko",
+      "Elizabeth Rizor",
+      "Dengxian Yang",
+      "M\u00e1irt\u00edn MacNamara",
+      "Linda Petzold",
+      "Scott T. Grafton"
+    ],
+    "year": 2023,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-023-33008-2",
+    "citation_count": 14,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4210515605",
+    "title": "A direct test of competitive versus cooperative episodic\u2013procedural network dynamics in human memory",
+    "authors": [
+      "Michael Freedberg",
+      "Jack A. Reeves",
+      "Cynthia M. Fioriti",
+      "Jorge Murillo",
+      "Joel L. Voss",
+      "Eric M. Wassermann"
+    ],
+    "year": 2022,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhab512",
+    "citation_count": 13,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4282551428",
+    "title": "What Is the Weather Prediction Task Good for? A New Analysis of Learning Strategies Reveals How Young Adults Solve the Task",
+    "authors": [
+      "Emilie Bochud\u2010Fragni\u00e8re",
+      "Pamela Banta Lavenex",
+      "Pierre Lavenex"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2022.886339",
+    "citation_count": 11,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2162262840",
+    "title": "Procedural-based category learning in patients with Parkinson's disease: impact of category number and category continuity",
+    "authors": [
+      "J. Vincent Filoteo",
+      "W. Todd Maddox"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Systems Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnsys.2014.00014",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1989339698",
+    "title": "Influence of Procedural Learning on Iowa Gambling Task Performance Among HIV+ Individuals with History of Substance Dependence",
+    "authors": [
+      "Ra\u00fal Gonz\u00e1lez",
+      "Margaret C. Wardle",
+      "Joanna Jacobus",
+      "Jasmin Vassileva",
+      "Eileen M. Martin-Thormeyer"
+    ],
+    "year": 2009,
+    "journal": "Archives of Clinical Neuropsychology",
+    "doi_or_url": "https://doi.org/10.1093/arclin/acp094",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2751625208",
+    "title": "Aging and a genetic KIBRA polymorphism interactively affect feedback- and observation-based probabilistic classification learning",
+    "authors": [
+      "Nicolas W. Schuck",
+      "Jessica R. Petok",
+      "Martijn Meeter",
+      "Brit-Maren Michaud Schjeide",
+      "Julia Schr\u00f6der",
+      "Lars Bertram",
+      "Mark A. Gluck",
+      "Shu Li"
+    ],
+    "year": 2017,
+    "journal": "Neurobiology of Aging",
+    "doi_or_url": "https://doi.org/10.1016/j.neurobiolaging.2017.08.026",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2606612549",
+    "title": "Separating the effect of reward from corrective feedback during learning in patients with Parkinson\u2019s disease",
+    "authors": [
+      "Michael Freedberg",
+      "Jonathan Schacherer",
+      "Kuan\u2010Hua Chen",
+      "Manuchair Ebadi",
+      "Nandakumar S. Narayanan",
+      "Eliot Hazeltine"
+    ],
+    "year": 2017,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-017-0505-0",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2152770706",
+    "title": "Cerebellar pathology does not impair performance on identification or categorization tasks",
+    "authors": [
+      "Shawn W. Ell",
+      "Richard B. Ivry"
+    ],
+    "year": 2008,
+    "journal": "Journal of the International Neuropsychological Society",
+    "doi_or_url": "https://doi.org/10.1017/s1355617708081058",
+    "citation_count": 8,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2463902051",
+    "title": "Paired-Associate and Feedback-Based Weather Prediction Tasks Support Multiple Category Learning Systems",
+    "authors": [
+      "Kaiyun Li",
+      "Qiufang Fu",
+      "Xunwei Sun",
+      "Xiaoyan Zhou",
+      "Xiaolan Fu"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2016.01017",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2806253862",
+    "title": "Impaired sequential and partially compensated probabilistic skill learning in Parkinson's disease",
+    "authors": [
+      "Ferenc Kem\u00e9ny",
+      "Gyula Demeter",
+      "Mih\u00e1ly Racsm\u00e1ny",
+      "Istv\u00e1n Val\u00e1lik",
+      "\u00c1gnes Luk\u00e1cs"
+    ],
+    "year": 2018,
+    "journal": "Journal of Neuropsychology",
+    "doi_or_url": "https://doi.org/10.1111/jnp.12163",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2792606145",
+    "title": "The Neural Correlates of Probabilistic Classification Learning in Obsessive-Compulsive Disorder: A Pilot Study",
+    "authors": [
+      "Jana Hansmeier",
+      "Cornelia Exner",
+      "Ulrike Zetsche",
+      "Andreas Jansen"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2018.00058",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W41118379",
+    "title": "Category learning and adaptive benefits of aging",
+    "authors": [
+      "Angela Merritt",
+      "Linn\u00e9a Karlsson",
+      "Edward T. Cokely"
+    ],
+    "year": 2010,
+    "journal": "eScholarship (California Digital Library)",
+    "doi_or_url": "https://openalex.org/W41118379",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2477396037",
+    "title": "Implicit Sequence Learning in People with Parkinson's Disease",
+    "authors": [
+      "Katherine R. Gamble"
+    ],
+    "year": 2014,
+    "journal": "DigitalGeorgetown (Georgetown University Library)",
+    "doi_or_url": "https://openalex.org/W2477396037",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2181399346",
+    "title": "FUNCTIONAL ORGANIZATION OF THE DORSAL STRIATUM: COMPARISON TO THE HIPPOCAMPAL SYSTEM",
+    "authors": [
+      "Bryan D. Devan"
+    ],
+    "year": 1997,
+    "journal": "eScholarship@McGill (McGill)",
+    "doi_or_url": "https://openalex.org/W2181399346",
+    "citation_count": 5,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4391880348",
+    "title": "How do humans learn about the reliability of automation?",
+    "authors": [
+      "Luke Strickland",
+      "Simon Farrell",
+      "Micah K. Wilson",
+      "Jack Hutchinson",
+      "Shayne Loft"
+    ],
+    "year": 2024,
+    "journal": "Cognitive Research Principles and Implications",
+    "doi_or_url": "https://doi.org/10.1186/s41235-024-00533-1",
+    "citation_count": 5,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1562622099",
+    "title": "Self-insight in probabilistic categorization \u00e2\u20ac\u201c not implicit in children either",
+    "authors": [
+      "Ferenc Kem\u00e9ny"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.00233",
+    "citation_count": 4,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W24600355",
+    "title": "Integraci\u00f3n vertical en el refino de petr\u00f3leo: el caso espa\u00f1ol",
+    "authors": [
+      "Aad Correlj\u00e9",
+      "Ignacio Cont\u00edn Pilart",
+      "Emilio Huerta Arribas"
+    ],
+    "year": 2000,
+    "journal": "Bolet\u00edn de Estudios Econ\u00f3micos",
+    "doi_or_url": "https://doi.org/10.3389/fnsys.2014.00014",
+    "citation_count": 4,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4383068541",
+    "title": "When and how do children solve the Weather Prediction Task?",
+    "authors": [
+      "Emilie Bochud\u2010Fragni\u00e8re",
+      "Pierre Lavenex",
+      "Pamela Banta Lavenex",
+      "Pamela Banta Lavenex",
+      "Pamela Banta Lavenex"
+    ],
+    "year": 2023,
+    "journal": "Developmental Psychobiology",
+    "doi_or_url": "https://doi.org/10.1002/dev.22407",
+    "citation_count": 4,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2200647745",
+    "title": "A Long Term Follow Up to a Randomized Controlled Trial of Comprehensive Behavioral Intervention for Tics",
+    "authors": [
+      "Flint M. Espil"
+    ],
+    "year": 2015,
+    "journal": "UWM Digital Commons (University of Wisconsin\u2013Milwaukee)",
+    "doi_or_url": "https://openalex.org/W2200647745",
+    "citation_count": 3,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3214571362",
+    "title": "Strategy Development and Feedback Processing During Complex Category Learning",
+    "authors": [
+      "Victoria Tilton-Bolowsky",
+      "Sofia Vallila\u2010Rohter",
+      "Yael Arbel"
+    ],
+    "year": 2021,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2021.672330",
+    "citation_count": 3,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4387865447",
+    "title": "Impaired implicit learning in adults with anorexia nervosa",
+    "authors": [
+      "Markus Wiener",
+      "Susanne Bengesser",
+      "Jolana Wagner\u2010Skacel",
+      "Fiona Haidacher",
+      "Theresa Lahousen\u2010Luxenberger",
+      "Julian Wenninger",
+      "Karin Hasiba\u2010Seebacher",
+      "Frederike T. Fellendorf",
+      "Annamaria Painold",
+      "Kathrin Kreuzer",
+      "Mary Butler",
+      "Sonja Lackner"
+    ],
+    "year": 2023,
+    "journal": "International Journal of Eating Disorders",
+    "doi_or_url": "https://doi.org/10.1002/eat.24075",
+    "citation_count": 3,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2473634555",
+    "title": "Will big data yield new mathematics? An evolving synergy with neuroscience",
+    "authors": [
+      "Samuel F. Feng",
+      "Philip Holmes"
+    ],
+    "year": 2016,
+    "journal": "IMA Journal of Applied Mathematics",
+    "doi_or_url": "https://doi.org/10.1093/imamat/hxw026",
+    "citation_count": 2,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2187489146",
+    "title": "Investigating decision-making in Parkinson's disease in tasks characterized by probabilistic cue-outcome associations: the role of optimality",
+    "authors": [
+      "Agata Ryterska",
+      "Adam J. L. Harris",
+      "Anastasia Ejova",
+      "Marjan Jahanshahi",
+      "Magda Osman"
+    ],
+    "year": 2014,
+    "journal": "Journal of Psychiatry and Brain Functions",
+    "doi_or_url": "https://doi.org/10.7243/2055-3447-1-6",
+    "citation_count": 2,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1573524174",
+    "title": "Reinforcement Learning in Individuals at Risk for Alzheimer's Disease",
+    "authors": [
+      "Christina M. Figueroa"
+    ],
+    "year": 2013,
+    "journal": "e-Publications@Marquette (Marquette University)",
+    "doi_or_url": "https://openalex.org/W1573524174",
+    "citation_count": 1,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2801290506",
+    "title": "Is There a Higher-Order Mechanism that Explains Performance Across Prediction Tasks?",
+    "authors": [
+      "Michelle L. Eisenberg"
+    ],
+    "year": 2017,
+    "journal": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+    "doi_or_url": "https://doi.org/10.7936/k79s1qfv",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3005472797",
+    "title": "Amortised inference for mechanistic models of neural dynamics",
+    "authors": [
+      "Jan-Matthis Lueckmann",
+      "Pedro J. Gon\u00e7alves",
+      "Chaitanya Chintaluri",
+      "William F. Podlaski",
+      "Giacomo Bassetto",
+      "Tim P. Vogels",
+      "Jakob H. Macke"
+    ],
+    "year": 2019,
+    "journal": "MPG.PuRe (Max Planck Society)",
+    "doi_or_url": "https://doi.org/10.12751/nncn.bc2019.0062",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2619738938",
+    "title": "Gestalt Reasoning: Perceptual Compatibility Effects Evoked by Coordination Descriptions",
+    "authors": [
+      "Magdalena Dumitru",
+      "Gitte H. Joergensen"
+    ],
+    "year": 2016,
+    "journal": "Open Repository and Bibliography (University of Li\u00e8ge)",
+    "doi_or_url": "https://openalex.org/W2619738938",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4298242859",
+    "title": "DTI microstructural abnormalities in adolescent siblings of patients with childhood-onset schizophrenia",
+    "authors": [
+      "Dana Waltzman",
+      "Barbara J. Knowlton",
+      "Jessica R. Cohen",
+      "Susan Y. Bookheimer",
+      "Robert M. Bilder",
+      "Robert F. Asarnow"
+    ],
+    "year": 2020,
+    "journal": "UNC Libraries",
+    "doi_or_url": "https://doi.org/10.17615/tvj0-mp15",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1153720404",
+    "title": "Cortico-striatal Function in Individuals at Genetic Risk for Schizophrenia",
+    "authors": [
+      "Dana Wagshal"
+    ],
+    "year": 2012,
+    "journal": "eScholarship (California Digital Library)",
+    "doi_or_url": "https://openalex.org/W1153720404",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4254253211",
+    "title": "ANPA Abstracts",
+    "authors": [
+      "Gordon Andrews",
+      "Kenna Sleigh",
+      "Bruce Forster",
+      "Grant Stiver",
+      "Anthony Chow",
+      "Burkhart Maedler",
+      "Alex Mackay",
+      "Saul Isserow",
+      "Robin Hurley",
+      "L Hayman",
+      "Katherine Taber",
+      "Josef Parvizi"
+    ],
+    "year": 2003,
+    "journal": "Journal of Neuropsychiatry",
+    "doi_or_url": "https://doi.org/10.1176/appi.neuropsych.15.2.254",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2776395142",
+    "title": "Neural Substrates of Cognitive Skill Learning in Healthy Young Volunteers - eScholarship",
+    "authors": [
+      "Sang-Soo Cho",
+      "San-Eun Kim",
+      "Yu-Kyeong Kim",
+      "Jung-Mo Lee",
+      "Eun Jin Yoon"
+    ],
+    "year": 2006,
+    "journal": "Proceedings of the Annual Meeting of the Cognitive Science Society",
+    "doi_or_url": "https://openalex.org/W2776395142",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4406130702",
+    "title": "Asking the right questions: interrogating the logic and assumptions of paradigms used to investigate interactions between procedural and declarative memory in category learning",
+    "authors": [
+      "Priya B. Kalra"
+    ],
+    "year": 2025,
+    "journal": "Frontiers in Cognition",
+    "doi_or_url": "https://doi.org/10.3389/fcogn.2024.1505513",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4386975170",
+    "title": "The Predictive Effect of Cognitive Flexibility and Probability Knowledge on Probability Category Learning",
+    "authors": [
+      "Feng Xia",
+      "Shi Xinguang",
+      "Chengzhi Feng"
+    ],
+    "year": 2023,
+    "journal": "International Journal of Psychology and Psychoanalysis",
+    "doi_or_url": "https://doi.org/10.23937/2572-4037.1510069",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2625978178",
+    "title": "Neural Substrates of Cognitive Skill Learning in Healthy Young Volunteers",
+    "authors": [
+      "Sang-Soo Cho",
+      "San-Eun Kim",
+      "Yu-Kyeong Kim",
+      "Lee Jung-Mo",
+      "Yoon Eun Jin"
+    ],
+    "year": 2006,
+    "journal": "eScholarship (California Digital Library)",
+    "doi_or_url": "https://openalex.org/W2625978178",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4389057437",
+    "title": "The Visual Advantage Effect in Comparing Uni-Modal and Cross-Modal Probabilistic Category Learning",
+    "authors": [
+      "Xunwei Sun",
+      "Qiufang Fu"
+    ],
+    "year": 2023,
+    "journal": "Journal of Intelligence",
+    "doi_or_url": "https://doi.org/10.3390/jintelligence11120218",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3083346717",
+    "title": "Geometric interpretation of robustness in spike coding networks",
+    "authors": [
+      "Nuno Calaim",
+      "Florian A. Dehmelt",
+      "Pedro J. Gon\u00e7alves",
+      "Christian K. Machens"
+    ],
+    "year": 2019,
+    "journal": "MPG.PuRe (Max Planck Society)",
+    "doi_or_url": "https://openalex.org/W3083346717",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4288066670",
+    "title": "Entropy, Amnesia, and Abnormal D\u00e9j\u00e0 Experiences",
+    "authors": [
+      "Lana Frankle"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2022.794683",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2521355428",
+    "title": "Divergent Effects of Augmenting NMDA Receptor Signaling on Plasticity and Working Memory in Healthy Adults versus Schizophrenia Patients: Importance of Mechanisms Underlying Distinct Cognitive Functions",
+    "authors": [
+      "Jennifer K. Forsyth"
+    ],
+    "year": 2016,
+    "journal": "eScholarship (California Digital Library)",
+    "doi_or_url": "https://openalex.org/W2521355428",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2300056364",
+    "title": "Multiple memory systems involved in human probabilistic learning",
+    "authors": [
+      "Kathryn C. Dickerson"
+    ],
+    "year": 2011,
+    "journal": "Rutgers University Community Repository (Rutgers University)",
+    "doi_or_url": "https://doi.org/10.7282/t33n22hw",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1994449806",
+    "title": "Behavioural Correlates of Cognitive Skill Learning in Parkinson's Disease",
+    "authors": [
+      "Miriam H. Beauchamp",
+      "Alain Dagher",
+      "Michel Panisset",
+      "Julien Doyon"
+    ],
+    "year": 2008,
+    "journal": "The Open Behavioral Science Journal",
+    "doi_or_url": "https://doi.org/10.2174/1874230000802010001",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3135023445",
+    "title": "The Effect that Testing has on Nondeclarative Memory",
+    "authors": [
+      "David V. Smith"
+    ],
+    "year": 2020,
+    "journal": "DigitalCommons (California Polytechnic State University)",
+    "doi_or_url": "https://openalex.org/W3135023445",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3045279912",
+    "title": "Modifiability Of Strategy Use In Probabilistic Categorization By Rhesus Macaques (Macaca Mulatta) And Capuchin Monkeys (Cebus [Sapajus] Apella)",
+    "authors": [
+      "William Whitham"
+    ],
+    "year": 2022,
+    "journal": "Digital Archive @ GSU",
+    "doi_or_url": "https://doi.org/10.57709/18629955",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W140493486",
+    "title": "The basal ganglia and training of arithmetic fluency",
+    "authors": [
+      "Andrea Ponting"
+    ],
+    "year": 2010,
+    "journal": "D-Scholarship@Pitt (University of Pittsburgh)",
+    "doi_or_url": "https://openalex.org/W140493486",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2620352746",
+    "title": "Effects of Antiretroviral CNS Penetration on Procedural Learning Task Performance in HIV+ Drug Users",
+    "authors": [
+      "Michael J. Wilson"
+    ],
+    "year": 2012,
+    "journal": "Figshare",
+    "doi_or_url": "https://openalex.org/W2620352746",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1533510275",
+    "title": "Increasing dopamine levels in the brain improves feedback-based procedural learning: An artificial grammar learning experiment",
+    "authors": [
+      "Meinou De Vries",
+      "Catrin Ulte",
+      "Pienie Zwitserlood",
+      "Stefan Knecht"
+    ],
+    "year": 2009,
+    "journal": "Unknown",
+    "doi_or_url": "https://doi.org/10.1016/j.neuropsychologia.2010.06.024",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W12464701",
+    "title": "Introduzione ai lavori",
+    "authors": [
+      "Ombretta Fumagalli Carulli"
+    ],
+    "year": 2010,
+    "journal": "Il Diritto ecclesiastico",
+    "doi_or_url": "https://doi.org/10.1101/lm.45202",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2526393551",
+    "title": "Does Sleep Enhance the Consolidation of Implicitly Learned Visuo-Motor Sequence Learning?",
+    "authors": [
+      "Jeremy Viczko"
+    ],
+    "year": 2016,
+    "journal": "Scholarship@Western (Western University)",
+    "doi_or_url": "https://openalex.org/W2526393551",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]

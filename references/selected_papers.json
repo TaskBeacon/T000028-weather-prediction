@@ -1,0 +1,330 @@
+[
+  {
+    "id": "W2110781393",
+    "title": "Insight and strategy in multiple-cue learning.",
+    "authors": [
+      "David A. Lagnado",
+      "Ben R. Newell",
+      "Steven Kahan",
+      "David R. Shanks"
+    ],
+    "year": 2006,
+    "journal": "Journal of Experimental Psychology General",
+    "doi_or_url": "https://doi.org/10.1037/0096-3445.135.2.162",
+    "citation_count": 134,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2136439930",
+    "title": "Habitual versus Goal-directed Action Control in Parkinson Disease",
+    "authors": [
+      "Sanne de Wit",
+      "Roger A. Barker",
+      "Anthony Dickinson",
+      "Roshan Cools"
+    ],
+    "year": 2010,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/jocn.2010.21514",
+    "citation_count": 118,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2171056452",
+    "title": "A Bayesian foundation for individual learning under uncertainty",
+    "authors": [
+      "Christoph Mathys"
+    ],
+    "year": 2011,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2011.00039",
+    "citation_count": 685,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2551311960",
+    "title": "Allostatic Self-efficacy: A Metacognitive Theory of Dyshomeostasis-Induced Fatigue and Depression",
+    "authors": [
+      "Klaas \u0395. Stephan",
+      "Zina M. Manjaly",
+      "Christoph Mathys",
+      "Lilian Weber",
+      "Saee Paliwal",
+      "Tim Gard",
+      "Marc Tittgemeyer",
+      "Stephen M. Fleming",
+      "H\u00e9l\u00e8ne Haker",
+      "Anil K. Seth",
+      "Frederike H. Petzschner"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2016.00550",
+    "citation_count": 437,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2042354961",
+    "title": "The Roles of the Caudate Nucleus in Human Classification Learning",
+    "authors": [
+      "Carol A. Seger",
+      "Corinna M. Cincotta"
+    ],
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3401-04.2005",
+    "citation_count": 414,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1581202840",
+    "title": "Reinforcement Learning in Multidimensional Environments Relies on Attention Mechanisms",
+    "authors": [
+      "Yael Niv",
+      "Reka Daniel",
+      "Andra Geana",
+      "Samuel J. Gershman",
+      "Yuan Chang Leong",
+      "Angela Radulescu",
+      "Robert C. Wilson"
+    ],
+    "year": 2015,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2978-14.2015",
+    "citation_count": 402,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1998736700",
+    "title": "How do People Solve the \u201cWeather Prediction\u201d Task?: Individual Variability in Strategies for Probabilistic Category Learning",
+    "authors": [
+      "Mark A. Gluck",
+      "Daphna Shohamy",
+      "Catherine E. Myers"
+    ],
+    "year": 2002,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.45202",
+    "citation_count": 261,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2076805718",
+    "title": "Stress Modulates the Engagement of Multiple Memory Systems in Classification Learning",
+    "authors": [
+      "Lars Schwabe",
+      "Oliver T. Wolf"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1484-12.2012",
+    "citation_count": 187,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2953937173",
+    "title": "Indicators and Criteria of Consciousness in Animals and Intelligent Machines: An Inside-Out Approach",
+    "authors": [
+      "Cyriel M. A. Pennartz",
+      "Michele Farisco",
+      "Kathinka Evers"
+    ],
+    "year": 2019,
+    "journal": "Frontiers in Systems Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnsys.2019.00025",
+    "citation_count": 122,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2154008409",
+    "title": "A Role for the Medial Temporal Lobe in Feedback-Driven Learning: Evidence from Amnesia",
+    "authors": [
+      "Karin Foerde",
+      "Elizabeth Race",
+      "Mieke Verfaellie",
+      "Daphna Shohamy"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5217-12.2013",
+    "citation_count": 121,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2136211925",
+    "title": "Sleep enhances category learning",
+    "authors": [
+      "Ina Djonlagic",
+      "Andrew Rosenfeld",
+      "Daphna Shohamy",
+      "Catherine E. Myers",
+      "Mark A. Gluck",
+      "Robert Stickgold"
+    ],
+    "year": 2009,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.1634509",
+    "citation_count": 118,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2130173984",
+    "title": "Habit and Skill Learning in Schizophrenia: Evidence of Normal Striatal Processing With Abnormal Cortical Input",
+    "authors": [
+      "Thomas W. Weickert",
+      "Alejandro Terrazas",
+      "Llewellyn B. Bigelow",
+      "James D. Malley",
+      "Thomas M. Hyde",
+      "Michael Egan",
+      "Daniel R. Weinberger",
+      "Terry E. Goldberg"
+    ],
+    "year": 2002,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.49102",
+    "citation_count": 111,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2140341391",
+    "title": "Neural Mechanisms Underlying Probabilistic Category Learning in Normal Aging",
+    "authors": [
+      "Francesco Saverio Fera",
+      "Thomas W. Weickert",
+      "Terry E. Goldberg",
+      "Alessandro Tessitore",
+      "Ahmad R. Hariri",
+      "S. C. Das",
+      "Sam Lee",
+      "Brad Zoltick",
+      "Martijn Meeter",
+      "Catherine E. Myers",
+      "Mark A. Gluck",
+      "Daniel R. Weinberger"
+    ],
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2736-05.2005",
+    "citation_count": 106,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2600734209",
+    "title": "Compromised hippocampus\u2010striatum pathway as a potential imaging biomarker of mild\u2010traumatic brain injury and posttraumatic stress disorder",
+    "authors": [
+      "D. Rangaprakash",
+      "Gopikrishna Deshpande",
+      "Thomas A. Daniel",
+      "Adam M. Goodman",
+      "Jennifer L. Robinson",
+      "Nouha Salibi",
+      "Jeffrey S. Katz",
+      "Thomas S. Denney",
+      "Michael N. Dretsch"
+    ],
+    "year": 2017,
+    "journal": "Human Brain Mapping",
+    "doi_or_url": "https://doi.org/10.1002/hbm.23551",
+    "citation_count": 100,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]
