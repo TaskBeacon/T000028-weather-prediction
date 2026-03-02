@@ -1,97 +1,62 @@
-﻿task_id: T000028
+task_id: T000028
 generated_at: '2026-02-19T18:10:00Z'
-selection_policy: openalex_filter_plus_manual_curation
+selection_policy: manual_curation_literature_first
 citation_threshold: 100
 papers:
   - id: W1998736700
-    title: How do People Solve the “Weather Prediction” Task?: Individual Variability in Strategies for Probabilistic Category Learning
-    authors:
-      - Mark A. Gluck
-      - Daphna Shohamy
-      - Catherine E. Myers
+    title: "How do People Solve the Weather Prediction Task?: Individual Variability in Strategies for Probabilistic Category Learning"
     year: 2002
     journal: Learning & Memory
     doi_or_url: https://doi.org/10.1101/lm.45202
     citation_count: 262
-    is_high_impact: false
     open_access: true
+    is_high_impact: false
     used_for:
       - task_workflow
       - cue_combination_logic
       - strategy_variability
-    parameter_bindings: {}
-    notes: Weather prediction task structure and strategic variability.
   - id: W2042354961
     title: The Roles of the Caudate Nucleus in Human Classification Learning
-    authors:
-      - Carol A. Seger
-      - Corinna M. Cincotta
     year: 2005
     journal: Journal of Neuroscience
-    doi_or_url: https://doi.org/10.1523/jneurosci.3401-04.2005
+    doi_or_url: https://doi.org/10.1523/JNEUROSCI.3401-04.2005
     citation_count: 414
-    is_high_impact: false
     open_access: true
+    is_high_impact: false
     used_for:
-      - task_workflow
       - probabilistic_feedback_design
+      - response_metrics
       - neurocognitive_interpretation
-    parameter_bindings: {}
-    notes: Supports probabilistic classification framing and feedback-based learning.
   - id: W2110781393
-    title: Insight and strategy in multiple-cue learning.
-    authors:
-      - David A. Lagnado
-      - Ben R. Newell
-      - Steven Kahan
-      - David R. Shanks
+    title: Insight and strategy in multiple-cue learning
     year: 2006
-    journal: Journal of Experimental Psychology General
+    journal: "Journal of Experimental Psychology: General"
     doi_or_url: https://doi.org/10.1037/0096-3445.135.2.162
     citation_count: 135
-    is_high_impact: true
     open_access: true
+    is_high_impact: true
     used_for:
       - multiple_cue_design
-      - response_metrics
       - strategy_interpretation
-    parameter_bindings: {}
-    notes: High-impact evidence for multiple-cue probabilistic learning behavior.
   - id: W2076805718
     title: Stress Modulates the Engagement of Multiple Memory Systems in Classification Learning
-    authors:
-      - Lars Schwabe
-      - Oliver T. Wolf
     year: 2012
     journal: Journal of Neuroscience
-    doi_or_url: https://doi.org/10.1523/jneurosci.1484-12.2012
+    doi_or_url: https://doi.org/10.1523/JNEUROSCI.1484-12.2012
     citation_count: 187
-    is_high_impact: false
     open_access: true
+    is_high_impact: false
     used_for:
-      - task_workflow
       - timing_parameters
       - behavioral_endpoints
-    parameter_bindings: {}
-    notes: Classification-learning protocol details and behavioral endpoint conventions.
   - id: W2136211925
     title: Sleep enhances category learning
-    authors:
-      - Ina Djonlagic
-      - Andrew Rosenfeld
-      - Daphna Shohamy
-      - Catherine E. Myers
-      - Mark A. Gluck
-      - Robert Stickgold
     year: 2009
     journal: Learning & Memory
     doi_or_url: https://doi.org/10.1101/lm.1634509
     citation_count: 118
-    is_high_impact: false
     open_access: true
+    is_high_impact: false
     used_for:
-      - task_workflow
       - trial_count_guidance
       - performance_metrics
-    parameter_bindings: {}
-    notes: Supports trial-based weather prediction implementation and learning metrics.

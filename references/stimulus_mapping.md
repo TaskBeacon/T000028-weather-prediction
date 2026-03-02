@@ -1,14 +1,12 @@
-﻿# Stimulus Mapping
+# Stimulus Mapping
 
-Task: `Weather Prediction Task`
+## Mapping Table
 
-| Condition | Implemented Stimulus IDs | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Notes |
-|---|---|---|---|---|---|
-| `probabilistic_classification` | `cue_title`, runtime 4-card cue array (`cue_card_1..4`), `cue_hint`, `decision_prompt`, `key_hint`, `feedback_correct`, `feedback_incorrect`, `feedback_timeout`, `fixation` | `W1998736700` | Weather prediction uses cue-card combinations to drive probabilistic category predictions with trial-wise feedback. | `psychopy_builtin` | Cue cards are concrete visual rectangles with active/inactive state labels; weather responses are binary (`sun/rain`). |
-| `pattern_probability_logic` | per-trial pattern factor (`pattern_id`, `sun_probability`) and sampled outcome (`actual_weather`) | `W2042354961` | Probabilistic classification learning relies on outcome uncertainty contingent on cue combinations. | `psychopy_builtin` | Outcome generation is implemented in controller and surfaced in feedback text. |
-| `all_conditions` | `instruction_text`, `block_break`, `good_bye`, `score_text` | `W2110781393` | Multi-cue learning tasks include instructions, repeated trial feedback, and session-level performance summaries. | `psychopy_builtin` | Participant-facing text is UTF-8 Chinese with `SimHei` font. |
-
-Implementation mode legend:
-- `psychopy_builtin`: stimulus rendered via PsychoPy primitives in config or runtime drawing.
-- `generated_reference_asset`: task-specific synthetic assets generated from reference-described rules.
-- `licensed_external_asset`: externally sourced licensed media with protocol linkage.
+| Condition | Stage/Phase | Stimulus IDs | Participant-Facing Content | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Asset References | Notes |
+|---|---|---|---|---|---|---|---|---|
+| `probabilistic_classification` | fixation | `fixation` | Central `+` shown before cue presentation. | W2076805718 | Baseline separation supports event timing control in classification tasks. | psychopy_builtin | `config/*.yaml -> stimuli.fixation` | Jittered duration sampled per trial. |
+| `probabilistic_classification` | cue | `cue_title`, `score_text`, `cue_card_template` (x4 rebuilt), `cue_hint` | Four cue cards show present/absent states before prediction. | W1998736700 | Weather prediction requires multi-cue combination exposure before response. | psychopy_builtin | `config/*.yaml -> stimuli.cue_* / cue_card_template / score_text` | Card and state labels are sourced from config task dictionaries. |
+| `probabilistic_classification` | decision | `score_text`, `cue_card_template` (x4 rebuilt), `decision_prompt`, `key_hint` | Participant predicts weather (`sun` vs `rain`) from the shown cue combination. | W2042354961 | Probabilistic category-learning response stage follows cue observation. | psychopy_builtin | `config/*.yaml -> stimuli.decision_prompt/key_hint/cue_card_template` | Decision context includes `sun_probability` and keys for simulation/audit. |
+| `probabilistic_classification` | feedback | `feedback_correct`, `feedback_incorrect`, `feedback_timeout` | Feedback reports predicted and actual weather plus score update. | W2042354961 | Trial-wise outcome feedback supports gradual strategy learning. | psychopy_builtin | `config/*.yaml -> stimuli.feedback_*` | Outcome branch determines feedback trigger code. |
+| `probabilistic_classification` | inter_trial_interval | `fixation` | Brief fixation before next trial. | W2076805718 | ITI separation helps reduce temporal carry-over. | psychopy_builtin | `config/*.yaml -> stimuli.fixation` | Trigger: `iti_onset`. |
+| `all_conditions` | envelope | `instruction_text`, `block_break`, `good_bye` | Instruction and summary screens report learning-relevant metrics. | W2136211925 | Weather-prediction studies report trialwise learning and aggregate performance indicators. | psychopy_builtin | `config/*.yaml -> stimuli.instruction_text/block_break/good_bye` | All participant-facing text is config-defined. |

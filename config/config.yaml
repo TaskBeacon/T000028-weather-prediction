@@ -38,6 +38,17 @@ task:
   language: Chinese
   voice_name: zh-CN-YunyangNeural
   voice_enabled: false
+  weather_labels:
+    sun: 晴天
+    rain: 雨天
+  card_labels:
+    - 线索卡1
+    - 线索卡2
+    - 线索卡3
+    - 线索卡4
+  card_state_labels:
+    "on": 出现
+    "off": 未出现
 timing:
   fixation_duration: [0.3, 0.6]
   cue_duration: 0.8
@@ -93,6 +104,14 @@ stimuli:
     wrapWidth: 1100
     pos: [0, -210]
     font: SimHei
+  cue_card_template:
+    type: text
+    text: "卡片\n状态"
+    color: [0.95, 0.95, 0.95]
+    height: 34
+    wrapWidth: 240
+    pos: [0, 70]
+    font: SimHei
   decision_prompt:
     type: text
     text: "根据当前卡片组合，预测天气类型"
@@ -103,7 +122,7 @@ stimuli:
     font: SimHei
   key_hint:
     type: text
-    text: "按键：{sun_key}=晴天，{rain_key}=雨天"
+    text: "按键：{sun_key}={sun_label}，{rain_key}={rain_label}"
     color: [0.92, 0.92, 0.92]
     height: 26
     wrapWidth: 980
