@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "W1998736700",
     "title": "How do People Solve the “Weather Prediction” Task?: Individual Variability in Strategies for Probabilistic Category Learning",
@@ -15,99 +15,32 @@
     "open_access": true,
     "used_for": [
       "task_workflow",
-      "timing_parameters"
+      "cue_combination_logic",
+      "strategy_variability"
     ],
     "parameter_bindings": {},
-    "notes": ""
+    "notes": "Weather prediction task structure and strategic variability."
   },
   {
-    "id": "W3209643259",
-    "title": "Applications of deep learning in congestion detection, prediction and alleviation: A survey",
+    "id": "W2042354961",
+    "title": "The Roles of the Caudate Nucleus in Human Classification Learning",
     "authors": [
-      "Nishant Kumar",
-      "Martin Raubal"
+      "Carol A. Seger",
+      "Corinna M. Cincotta"
     ],
-    "year": 2021,
-    "journal": "Transportation Research Part C Emerging Technologies",
-    "doi_or_url": "https://doi.org/10.1016/j.trc.2021.103432",
-    "citation_count": 109,
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3401-04.2005",
+    "citation_count": 414,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
       "task_workflow",
-      "timing_parameters"
+      "probabilistic_feedback_design",
+      "neurocognitive_interpretation"
     ],
     "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2120409145",
-    "title": "FREQUENCY EFFECTS IN LANGUAGE PROCESSING",
-    "authors": [
-      "Nick C. Ellis"
-    ],
-    "year": 2002,
-    "journal": "Studies in Second Language Acquisition",
-    "doi_or_url": "https://doi.org/10.1017/s0272263102002024",
-    "citation_count": 2143,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2809684781",
-    "title": "A comprehensive survey on machine learning for networking: evolution, applications and research opportunities",
-    "authors": [
-      "Raouf Boutaba",
-      "Mohammad A. Salahuddin",
-      "Noura Limam",
-      "Sara Ayoubi",
-      "Nashid Shahriar",
-      "Felipe Estrada‐Solano",
-      "Oscar Maurício Caicedo Rendón"
-    ],
-    "year": 2018,
-    "journal": "Journal of Internet Services and Applications",
-    "doi_or_url": "https://doi.org/10.1186/s13174-018-0087-2",
-    "citation_count": 965,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3135588948",
-    "title": "Toward Causal Representation Learning",
-    "authors": [
-      "Bernhard Schölkopf",
-      "Francesco Locatello",
-      "Stefan Bauer",
-      "Nan Rosemary Ke",
-      "Nal Kalchbrenner",
-      "Anirudh Goyal",
-      "Yoshua Bengio"
-    ],
-    "year": 2021,
-    "journal": "Proceedings of the IEEE",
-    "doi_or_url": "https://doi.org/10.1109/jproc.2021.3058954",
-    "citation_count": 913,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
+    "notes": "Supports probabilistic classification framing and feedback-based learning."
   },
   {
     "id": "W2110781393",
@@ -125,10 +58,57 @@
     "is_high_impact": true,
     "open_access": true,
     "used_for": [
-      "task_workflow",
-      "timing_parameters"
+      "multiple_cue_design",
+      "response_metrics",
+      "strategy_interpretation"
     ],
     "parameter_bindings": {},
-    "notes": ""
+    "notes": "High-impact evidence for multiple-cue probabilistic learning behavior."
+  },
+  {
+    "id": "W2076805718",
+    "title": "Stress Modulates the Engagement of Multiple Memory Systems in Classification Learning",
+    "authors": [
+      "Lars Schwabe",
+      "Oliver T. Wolf"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1484-12.2012",
+    "citation_count": 187,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters",
+      "behavioral_endpoints"
+    ],
+    "parameter_bindings": {},
+    "notes": "Classification-learning protocol details and behavioral endpoint conventions."
+  },
+  {
+    "id": "W2136211925",
+    "title": "Sleep enhances category learning",
+    "authors": [
+      "Ina Djonlagic",
+      "Andrew Rosenfeld",
+      "Daphna Shohamy",
+      "Catherine E. Myers",
+      "Mark A. Gluck",
+      "Robert Stickgold"
+    ],
+    "year": 2009,
+    "journal": "Learning & Memory",
+    "doi_or_url": "https://doi.org/10.1101/lm.1634509",
+    "citation_count": 118,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "trial_count_guidance",
+      "performance_metrics"
+    ],
+    "parameter_bindings": {},
+    "notes": "Supports trial-based weather prediction implementation and learning metrics."
   }
 ]

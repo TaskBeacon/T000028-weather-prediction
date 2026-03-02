@@ -1,13 +1,13 @@
-# Weather Prediction Task
+﻿# Weather Prediction Task
 
 ![Maturity: draft](https://img.shields.io/badge/Maturity-draft-64748b?style=flat-square&labelColor=111827)
 
 | Field | Value |
 |---|---|
 | Name | Weather Prediction Task |
-| Version | v0.1.1-dev |
+| Version | v0.2.0-dev |
 | URL / Repository | https://github.com/TaskBeacon/T000028-weather-prediction |
-| Short Description | Probabilistic category learning with cue-combination weather outcomes. |
+| Short Description | Probabilistic category learning task using multi-cue card combinations to predict weather outcomes. |
 | Created By | TaskBeacon |
 | Date Updated | 2026-02-19 |
 | PsyFlow Version | 0.1.9 |
@@ -18,9 +18,9 @@
 
 ## 1. Task Overview
 
-This task implements a Weather Prediction paradigm with probabilistic category outcomes across `sun`, `rain`, and `snow` conditions. Participants respond during the target interval and receive outcome feedback.
+This implementation follows the Weather Prediction paradigm as a probabilistic multiple-cue classification task. Each trial presents a combination of four cue cards, and participants predict whether the weather will be `sun` or `rain`.
 
-The design supports condition-resolved performance analysis under uncertainty and includes trigger-tagged trial stages for reproducible behavioral or synchronized acquisition runs.
+Outcome feedback is probabilistic and contingent on the sampled cue pattern (`P(sun | pattern)`), supporting gradual strategy learning instead of deterministic rule execution.
 
 ## 2. Task Flow
 
@@ -28,35 +28,39 @@ The design supports condition-resolved performance analysis under uncertainty an
 
 | Step | Description |
 |---|---|
-| 1. Initialize block | Condition schedule is loaded into `BlockUnit`. |
-| 2. Execute trials | `run_trial(...)` handles cue, anticipation, target, and feedback. |
-| 3. Block report | Block accuracy and score summary are shown. |
-| 4. Task completion | Final total score is displayed. |
+| 1. Block init | Controller resets block trial counter and keeps cumulative score continuity. |
+| 2. Trial loop | `run_trial(...)` executes fixation, cue exposure, decision, feedback, and ITI. |
+| 3. Block summary | Show block accuracy, timeout count, mean RT, prediction tendency, and score. |
+| 4. Final summary | Show session-level performance and final cumulative score. |
 
 ### Trial-Level Flow
 
 | Step | Description |
 |---|---|
-| Cue | Weather cue corresponding to current condition is shown. |
-| Anticipation | Fixation interval before target. |
-| Target | Condition target appears with response capture. |
-| Pre-feedback fixation | Brief interstitial fixation stage. |
-| Feedback | Hit/miss feedback and score delta are presented. |
+| `fixation` | Jittered fixation baseline. |
+| `cue` | Show 4-card cue pattern with active/inactive card states. |
+| `decision` | Collect weather prediction (`F=晴天`, `J=雨天`) under deadline. |
+| `feedback` | Show correct/incorrect/timeout feedback with actual weather and score update. |
+| `iti` | Jittered inter-trial fixation before next trial. |
 
 ### Controller Logic
 
 | Component | Description |
 |---|---|
-| Adaptive duration | Controller updates target duration toward configured accuracy target. |
-| Condition history | Trial outcomes are stored per condition. |
-| Trial scoring | Hit/miss state determines trial delta for cumulative score. |
+| Cue pattern library | 14 cue-card patterns, each with explicit `sun_probability`. |
+| Outcome sampling | Bernoulli weather outcome sampled from pattern-specific `P(sun)`. |
+| Score update | Correct `+1`, incorrect `-1`, timeout `0`. |
+| Metrics | Tracks trial history, cumulative score, and block/session summaries. |
 
 ### Runtime Context Phases
 
 | Phase Label | Meaning |
 |---|---|
-| `anticipation` | Pre-target response-monitoring interval. |
-| `target` | Main target response window. |
+| `fixation` | Pre-trial baseline. |
+| `cue` | Non-response cue observation stage. |
+| `decision` | Active weather prediction response window. |
+| `feedback` | Outcome feedback stage. |
+| `iti` | Inter-trial transition stage. |
 
 ## 3. Configuration Summary
 
@@ -73,34 +77,59 @@ The design supports condition-resolved performance analysis under uncertainty an
 | `size` | `[1280, 720]` |
 | `units` | `pix` |
 | `screen` | `0` |
-| `bg_color` | `gray` |
+| `bg_color` | `[0.07, 0.10, 0.14]` |
 | `fullscreen` | `false` |
 | `monitor_width_cm` | `35.5` |
 | `monitor_distance_cm` | `60` |
 
 ### c. Stimuli
 
-| Name | Type | Description |
-|---|---|---|
-| `sun_cue`, `rain_cue`, `snow_cue` | text | Condition-specific cue prompts. |
-| `sun_target`, `rain_target`, `snow_target` | text | Condition targets for response capture. |
-| `*_hit_feedback`, `*_miss_feedback` | text | Condition-specific feedback screens. |
-| `fixation`, `block_break`, `good_bye` | text | Shared fixation and summary displays. |
+| Stimulus Group | Description |
+|---|---|
+| `cue_title`, `cue_hint`, runtime cue-card rectangles/text | Trial-wise visual cue-combination display. |
+| `decision_prompt`, `key_hint` | Binary weather prediction prompt and key mapping. |
+| `feedback_correct`, `feedback_incorrect`, `feedback_timeout` | Outcome-specific feedback with score update. |
+| `instruction_text`, `block_break`, `good_bye`, `score_text`, `fixation` | Envelope and progress stimuli. |
 
 ### d. Timing
 
-| Phase | Duration |
+| Stage | Duration |
 |---|---|
-| cue | 0.5 s |
-| anticipation | 1.0 s |
-| prefeedback | 0.4 s |
-| feedback | 0.8 s |
-| target | adaptive via controller (`0.08`-`0.40` s bounds) |
+| fixation | jittered (`[0.3, 0.6] s`) |
+| cue | fixed (`0.8 s`) |
+| decision | deadline (`2.5 s`) |
+| feedback | fixed (`1.0 s`) |
+| iti | jittered (`[0.3, 0.6] s`) |
+
+### e. Triggers
+
+| Trigger | Code |
+|---|---:|
+| `exp_onset` | 1 |
+| `exp_end` | 2 |
+| `block_onset` | 10 |
+| `block_end` | 11 |
+| `fixation_onset` | 20 |
+| `cue_onset` | 30 |
+| `decision_onset` | 40 |
+| `choice_sun` | 41 |
+| `choice_rain` | 42 |
+| `choice_timeout` | 43 |
+| `feedback_correct` | 50 |
+| `feedback_incorrect` | 51 |
+| `feedback_timeout` | 52 |
+| `iti_onset` | 60 |
+
+### f. Adaptive Controller
+
+| Parameter Group | Description |
+|---|---|
+| `patterns` | 14-card-pattern probability table (`pattern_id`, `cards`, `sun_probability`, `weight`). |
+| `score deltas` | `correct_delta`, `incorrect_delta`, `timeout_delta`. |
+| `random_seed` | Reproducible probabilistic sampling in QA/sim when set. |
 
 ## 4. Methods (for academic publication)
 
-Participants completed a probabilistic category-learning task with weather-labeled condition streams. Each trial included cueing, anticipation, target response capture, and immediate feedback, allowing quantification of learning performance by condition.
+Participants performed a probabilistic weather prediction task in which each trial displayed a subset of four cue cards and required binary weather classification (`sun` vs `rain`). Trial outcomes were sampled probabilistically based on cue-pattern-specific weather likelihoods, and immediate feedback was provided to support gradual learning.
 
-Adaptive response-window control was used to maintain task difficulty around a target accuracy level. Trial records include response timing, hit/miss outcomes, condition labels, and score deltas.
-
-The implementation emits condition-specific trigger events for all major trial stages, supporting reproducible behavioral and synchronized recording pipelines.
+Primary behavioral endpoints include response accuracy, timeout rate, decision latency, prediction tendency, and cumulative score trajectory. The implementation emits trigger-aligned phase events (`fixation`, `cue`, `decision`, `feedback`, `iti`) for reproducible behavioral and synchronized acquisition workflows.

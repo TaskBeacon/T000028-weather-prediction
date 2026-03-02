@@ -1,23 +1,21 @@
-subinfo_fields:
-- name: subject_id
-  type: int
-  constraints:
-    min: 101
-    max: 999
-    digits: 3
+﻿subinfo_fields:
+  - name: subject_id
+    type: int
+    constraints:
+      min: 101
+      max: 999
+      digits: 3
 subinfo_mapping:
-  subject_id: 被试编号（3位）
+  subject_id: 受试者编号（3位）
   Participant Information: 被试信息
   registration_failed: 注册失败
   registration_successful: 注册成功
-  invalid_input: '{field} 输入无效'
+  invalid_input: "{field} 输入无效"
 window:
-  size:
-  - 1280
-  - 720
+  size: [1280, 720]
   units: pix
   screen: 0
-  bg_color: gray
+  bg_color: black
   fullscreen: false
   monitor_width_cm: 35.5
   monitor_distance_cm: 60
@@ -25,156 +23,166 @@ task:
   task_name: weather_prediction
   save_path: ./outputs/sim_sampler
   total_blocks: 1
-  total_trials: 9
-  trial_per_block: 9
+  total_trials: 20
+  trial_per_block: 20
   conditions:
-  - sun
-  - rain
-  - snow
+    - probabilistic_classification
   key_list:
-  - f
-  - j
-  - k
-  - space
+    - f
+    - j
+    - space
+  sun_key: f
+  rain_key: j
   seed_mode: same_across_sub
   delta: 1
   language: Chinese
   voice_name: zh-CN-YunyangNeural
   voice_enabled: false
 timing:
-  cue_duration: 0.5
-  anticipation_duration: 1.0
-  prefeedback_duration: 0.4
-  feedback_duration: 0.8
+  fixation_duration: [0.3, 0.6]
+  cue_duration: 0.8
+  decision_deadline: 2.5
+  feedback_duration: 1.0
+  iti_duration: [0.3, 0.6]
 stimuli:
-  fixation:
-    type: text
-    text: +
-    color: white
-    height: 48
-    font: SimHei
   instruction_text:
     type: text
-    text: '天气预测任务
+    text: |
+      天气预测任务
 
+      每轮会看到 4 张线索卡片，其中部分卡片会出现。
+      请根据当前卡片组合预测天气：
+      F = 晴天，J = 雨天。
 
-      根据线索组合预测天气类型。
+      线索与天气之间是概率关系，无法每次都完全确定。
+      你的目标是通过反馈逐步学会更好的预测策略。
 
-      F=晴天，J=雨天，K=雪天。
-
-
-      按空格键开始。'
+      按空格键开始。
     color: white
-    height: 28
+    height: 30
+    wrapWidth: 1080
+    pos: [0, 60]
+    font: SimHei
+  fixation:
+    type: text
+    text: "+"
+    color: [0.92, 0.92, 0.92]
+    height: 52
+    pos: [0, 0]
+    font: SimHei
+  cue_title:
+    type: text
+    text: "请观察本轮线索卡片"
+    color: [0.95, 0.95, 0.92]
+    height: 34
+    wrapWidth: 1040
+    pos: [0, 305]
+    font: SimHei
+  score_text:
+    type: text
+    text: "当前得分：{current_score}"
+    color: [0.80, 0.95, 0.86]
+    height: 30
+    pos: [0, 255]
+    font: SimHei
+  cue_hint:
+    type: text
+    text: "卡片出现状态已在下方标出，请准备做出天气预测。"
+    color: [0.86, 0.86, 0.86]
+    height: 24
+    wrapWidth: 1100
+    pos: [0, -210]
+    font: SimHei
+  decision_prompt:
+    type: text
+    text: "根据当前卡片组合，预测天气类型"
+    color: [0.98, 0.92, 0.62]
+    height: 30
+    wrapWidth: 1000
+    pos: [0, -255]
+    font: SimHei
+  key_hint:
+    type: text
+    text: "按键：{sun_key}=晴天，{rain_key}=雨天"
+    color: [0.92, 0.92, 0.92]
+    height: 26
     wrapWidth: 980
+    pos: [0, -295]
     font: SimHei
-  sun_cue:
+  feedback_correct:
     type: text
-    text: 线索：晴天线索
-    color: green
-    height: 44
-    wrapWidth: 900
+    text: |
+      预测正确
+      你的选择：{predicted_weather_cn}
+      实际天气：{actual_weather_cn}
+      本轮得分变化：{score_delta:+d}
+      当前得分：{score_after}
+    color: [0.70, 0.96, 0.70]
+    height: 30
+    wrapWidth: 980
+    pos: [0, 30]
     font: SimHei
-  rain_cue:
+  feedback_incorrect:
     type: text
-    text: 线索：雨天线索
-    color: white
-    height: 44
-    wrapWidth: 900
+    text: |
+      预测错误
+      你的选择：{predicted_weather_cn}
+      实际天气：{actual_weather_cn}
+      本轮得分变化：{score_delta:+d}
+      当前得分：{score_after}
+    color: [1.0, 0.78, 0.62]
+    height: 30
+    wrapWidth: 980
+    pos: [0, 30]
     font: SimHei
-  snow_cue:
+  feedback_timeout:
     type: text
-    text: 线索：雪天线索
-    color: white
-    height: 44
-    wrapWidth: 900
-    font: SimHei
-  sun_target:
-    type: text
-    text: '请预测天气类型
-
-      F=晴天   J=雨天   K=雪天'
-    color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  rain_target:
-    type: text
-    text: '请预测天气类型
-
-      F=晴天   J=雨天   K=雪天'
-    color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  snow_target:
-    type: text
-    text: '请预测天气类型
-
-      F=晴天   J=雨天   K=雪天'
-    color: white
-    height: 54
-    wrapWidth: 900
-    font: SimHei
-  sun_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  sun_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
-  rain_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  rain_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
-    font: SimHei
-  snow_hit_feedback:
-    type: text
-    text: 反应已记录
-    color: green
-    height: 42
-    font: SimHei
-  snow_miss_feedback:
-    type: text
-    text: 未在时限内作答
-    color: red
-    height: 42
+    text: |
+      本轮未在时限内作答
+      实际天气：{actual_weather_cn}
+      当前得分：{score_after}
+    color: [1.0, 0.50, 0.50]
+    height: 32
+    wrapWidth: 980
+    pos: [0, 20]
     font: SimHei
   block_break:
     type: text
-    text: '区块 {block_num}/{total_blocks}
+    text: |
+      第 {block_num}/{total_blocks} 组完成
 
-      记录率：{accuracy:.2%}
+      作答准确率：{accuracy:.1%}
+      超时次数：{timeout_count}
+      平均反应时：{mean_rt_ms:.0f} ms
+      晴天选择比例：{sun_prediction_rate:.1%}
+      本组净得分：{net_score:+d}
+      当前总得分：{score_end}
 
-      当前分数：{total_score}
-
-
-      按空格键继续'
+      按空格键继续。
     color: white
-    height: 24
-    wrapWidth: 900
+    height: 26
+    wrapWidth: 1080
+    pos: [0, 0]
     font: SimHei
   good_bye:
     type: text
-    text: '任务结束，最终分数：{total_score}
+    text: |
+      任务结束
 
+      总试次数：{total_trials}
+      有效作答次数：{response_count}
+      总体准确率：{accuracy:.1%}
+      超时次数：{timeout_count}
+      平均反应时：{mean_rt_ms:.0f} ms
+      晴天选择比例：{sun_prediction_rate:.1%}
+      总净得分：{net_score:+d}
+      最终得分：{score_end}
 
-      按空格键退出'
+      按空格键退出。
     color: white
-    height: 28
-    wrapWidth: 900
+    height: 26
+    wrapWidth: 1080
+    pos: [0, 0]
     font: SimHei
 triggers:
   map:
@@ -182,27 +190,16 @@ triggers:
     exp_end: 2
     block_onset: 10
     block_end: 11
-    sun_cue_onset: 20
-    rain_cue_onset: 21
-    snow_cue_onset: 22
-    sun_anti_onset: 30
-    rain_anti_onset: 31
-    snow_anti_onset: 32
-    sun_target_onset: 40
-    rain_target_onset: 41
-    snow_target_onset: 42
-    sun_key_press: 50
-    rain_key_press: 51
-    snow_key_press: 52
-    sun_no_response: 60
-    rain_no_response: 61
-    snow_no_response: 62
-    sun_hit_fb_onset: 70
-    sun_miss_fb_onset: 71
-    rain_hit_fb_onset: 72
-    rain_miss_fb_onset: 73
-    snow_hit_fb_onset: 74
-    snow_miss_fb_onset: 75
+    fixation_onset: 20
+    cue_onset: 30
+    decision_onset: 40
+    choice_sun: 41
+    choice_rain: 42
+    choice_timeout: 43
+    feedback_correct: 50
+    feedback_incorrect: 51
+    feedback_timeout: 52
+    iti_onset: 60
   driver:
     type: serial_url
     url: loop://
@@ -212,13 +209,69 @@ triggers:
   policy:
     strict: false
 controller:
-  initial_duration: 0.25
-  min_duration: 0.08
-  max_duration: 0.4
-  step: 0.02
-  target_accuracy: 0.66
-  condition_specific: true
+  initial_score: 0
+  correct_delta: 1
+  incorrect_delta: -1
+  timeout_delta: 0
+  random_seed: 0
   enable_logging: true
+  patterns:
+    - pattern_id: P01
+      cards: [1, 0, 0, 0]
+      sun_probability: 0.76
+      weight: 1.0
+    - pattern_id: P02
+      cards: [0, 1, 0, 0]
+      sun_probability: 0.57
+      weight: 1.0
+    - pattern_id: P03
+      cards: [0, 0, 1, 0]
+      sun_probability: 0.43
+      weight: 1.0
+    - pattern_id: P04
+      cards: [0, 0, 0, 1]
+      sun_probability: 0.20
+      weight: 1.0
+    - pattern_id: P05
+      cards: [1, 1, 0, 0]
+      sun_probability: 0.67
+      weight: 1.0
+    - pattern_id: P06
+      cards: [1, 0, 1, 0]
+      sun_probability: 0.60
+      weight: 1.0
+    - pattern_id: P07
+      cards: [1, 0, 0, 1]
+      sun_probability: 0.48
+      weight: 1.0
+    - pattern_id: P08
+      cards: [0, 1, 1, 0]
+      sun_probability: 0.50
+      weight: 1.0
+    - pattern_id: P09
+      cards: [0, 1, 0, 1]
+      sun_probability: 0.38
+      weight: 1.0
+    - pattern_id: P10
+      cards: [0, 0, 1, 1]
+      sun_probability: 0.32
+      weight: 1.0
+    - pattern_id: P11
+      cards: [1, 1, 1, 0]
+      sun_probability: 0.59
+      weight: 1.0
+    - pattern_id: P12
+      cards: [1, 1, 0, 1]
+      sun_probability: 0.51
+      weight: 1.0
+    - pattern_id: P13
+      cards: [1, 0, 1, 1]
+      sun_probability: 0.46
+      weight: 1.0
+    - pattern_id: P14
+      cards: [0, 1, 1, 1]
+      sun_probability: 0.40
+      weight: 1.0
 sim:
   output_dir: outputs/sim_sampler
   seed: 0
@@ -231,8 +284,9 @@ sim:
   responder:
     type: responders.task_sampler:TaskSamplerResponder
     kwargs:
-      key: f
-      hit_rate: 0.7
-      rt_mean_s: 0.28
-      rt_sd_s: 0.05
-      rt_min_s: 0.12
+      quality_rate: 0.74
+      miss_rate: 0.08
+      sun_bias: 0.0
+      rt_mean_s: 0.56
+      rt_sd_s: 0.10
+      rt_min_s: 0.20
