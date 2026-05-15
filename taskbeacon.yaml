@@ -8,7 +8,7 @@ maturity: draft
 version:
   release_tag: v0.2.0-dev
 contracts:
-  taps: v0.1.0
+  taps: v0.2.0
 evidence:
   - W1998736700
   - W2042354961
@@ -16,3 +16,5 @@ evidence:
   - W2076805718
   - W2136211925
 maintainer: []
+runtime:
+  profile: psyflow
