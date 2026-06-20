@@ -24,6 +24,8 @@ Outcome feedback is probabilistic and contingent on the sampled cue pattern (`P(
 
 ## 2. Task Flow
 
+![Task Flow](task_flow.png)
+
 ### Block-Level Flow
 
 | Step | Description |
