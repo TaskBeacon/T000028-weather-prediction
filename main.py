@@ -23,7 +23,7 @@ from psyflow import (
     runtime_context,
 )
 
-from src import Controller, run_trial
+from src import Controller, generate_weather_conditions, run_trial
 
 MODES = ("human", "qa", "sim")
 DEFAULT_CONFIG_BY_MODE = {
@@ -183,7 +183,10 @@ def run(options: TaskRunOptions):
                     window=win,
                     keyboard=kb,
                 )
-                .generate_conditions()
+                .generate_conditions(
+                    func=generate_weather_conditions,
+                    patterns=controller.patterns,
+                )
                 .on_start(lambda b: trigger_runtime.send(settings.triggers.get("block_onset")))
                 .on_end(lambda b: trigger_runtime.send(settings.triggers.get("block_end")))
                 .run_trial(

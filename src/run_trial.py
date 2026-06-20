@@ -3,31 +3,9 @@ from __future__ import annotations
 from functools import partial
 from typing import Any
 
-from psyflow import StimUnit, set_trial_context
+from psyflow import StimUnit, next_trial_id, resolve_deadline, set_trial_context
 
-
-def _deadline_s(value: Any) -> float | None:
-    if isinstance(value, (int, float)):
-        return float(value)
-    if isinstance(value, (list, tuple)) and value:
-        try:
-            return float(max(value))
-        except Exception:
-            return None
-    return None
-
-
-def _as_duration(controller, value: Any, default_value: float) -> float:
-    if hasattr(controller, "sample_duration"):
-        return float(controller.sample_duration(value, default_value))
-    if isinstance(value, (int, float)):
-        return float(value)
-    if isinstance(value, (list, tuple)) and value:
-        try:
-            return float(max(value))
-        except Exception:
-            return float(default_value)
-    return float(default_value)
+from .utils import weather_condition_to_trial_info
 
 
 def _as_dict(value: Any) -> dict:
@@ -73,13 +51,15 @@ def run_trial(
     block_idx=None,
 ):
     """Run one weather-prediction trial with probabilistic cue pattern and outcome."""
-    condition_name = str(condition).strip().lower()
-    trial_id = int(controller.next_trial_id()) if hasattr(controller, "next_trial_id") else 1
+    trial_info = weather_condition_to_trial_info(condition)
+    condition_name = str(trial_info["condition"])
+    trial_id = next_trial_id()
     block_idx_val = int(block_idx) if block_idx is not None else 0
 
-    pattern = controller.draw_pattern()
-    actual_weather = str(controller.sample_weather(pattern)).strip().lower()
-    cards = tuple(int(v) for v in pattern.cards)
+    pattern_id = str(trial_info["pattern_id"])
+    cards = tuple(int(v) for v in trial_info["cards"])
+    sun_probability = float(trial_info["sun_probability"])
+    actual_weather = str(trial_info["actual_weather"]).strip().lower()
     card_code = "".join(str(v) for v in cards)
 
     sun_key = str(getattr(settings, "sun_key", "f")).strip().lower()
@@ -99,11 +79,11 @@ def run_trial(
     on_label = str(card_state_labels.get("on", "on"))
     off_label = str(card_state_labels.get("off", "off"))
 
-    fixation_duration = _as_duration(controller, settings.fixation_duration, 0.45)
+    fixation_duration = float(resolve_deadline(settings.fixation_duration) or 0.45)
     cue_duration = float(settings.cue_duration)
     decision_deadline = float(settings.decision_deadline)
     feedback_duration = float(settings.feedback_duration)
-    iti_duration = _as_duration(controller, settings.iti_duration, 0.45)
+    iti_duration = float(resolve_deadline(settings.iti_duration) or 0.45)
 
     current_score = int(getattr(controller, "current_score", 0))
     trial_data = {
@@ -111,13 +91,13 @@ def run_trial(
         "trial_id": trial_id,
         "block_id": str(block_id) if block_id is not None else "block_0",
         "block_idx": block_idx_val,
-        "pattern_id": str(pattern.pattern_id),
+        "pattern_id": pattern_id,
         "pattern_cards": card_code,
         "card_1": cards[0],
         "card_2": cards[1],
         "card_3": cards[2],
         "card_4": cards[3],
-        "sun_probability": float(pattern.sun_probability),
+        "sun_probability": sun_probability,
         "actual_weather": actual_weather,
         "actual_weather_cn": actual_weather_label,
     }
@@ -129,15 +109,15 @@ def run_trial(
         fixation,
         trial_id=trial_id,
         phase="fixation",
-        deadline_s=_deadline_s(fixation_duration),
+        deadline_s=resolve_deadline(fixation_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=condition_name,
         task_factors={
             "stage": "fixation",
-            "pattern_id": pattern.pattern_id,
+            "pattern_id": pattern_id,
             "cards": list(cards),
-            "sun_probability": float(pattern.sun_probability),
+            "sun_probability": sun_probability,
             "block_idx": block_idx_val,
         },
         stim_id="fixation",
@@ -156,15 +136,15 @@ def run_trial(
         cue,
         trial_id=trial_id,
         phase="cue",
-        deadline_s=_deadline_s(cue_duration),
+        deadline_s=resolve_deadline(cue_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=condition_name,
         task_factors={
             "stage": "cue",
-            "pattern_id": pattern.pattern_id,
+            "pattern_id": pattern_id,
             "cards": list(cards),
-            "sun_probability": float(pattern.sun_probability),
+            "sun_probability": sun_probability,
             "current_score": current_score,
             "block_idx": block_idx_val,
         },
@@ -192,15 +172,15 @@ def run_trial(
         decision,
         trial_id=trial_id,
         phase="decision",
-        deadline_s=_deadline_s(decision_deadline),
+        deadline_s=resolve_deadline(decision_deadline),
         valid_keys=response_keys,
         block_id=trial_data["block_id"],
         condition_id=condition_name,
         task_factors={
             "stage": "decision",
-            "pattern_id": pattern.pattern_id,
+            "pattern_id": pattern_id,
             "cards": list(cards),
-            "sun_probability": float(pattern.sun_probability),
+            "sun_probability": sun_probability,
             "sun_key": sun_key,
             "rain_key": rain_key,
             "block_idx": block_idx_val,
@@ -211,17 +191,16 @@ def run_trial(
         keys=response_keys,
         duration=decision_deadline,
         onset_trigger=settings.triggers.get("decision_onset"),
-        response_trigger=None,
+        response_trigger={
+            sun_key: settings.triggers.get("choice_sun"),
+            rain_key: settings.triggers.get("choice_rain"),
+        },
         timeout_trigger=settings.triggers.get("choice_timeout"),
     )
     decision.to_dict(trial_data)
 
     response_key = str(decision.get_state("response", "")).strip().lower()
     timed_out = response_key not in response_keys
-    if response_key == sun_key:
-        trigger_runtime.send(settings.triggers.get("choice_sun"))
-    elif response_key == rain_key:
-        trigger_runtime.send(settings.triggers.get("choice_rain"))
 
     if timed_out:
         predicted_weather = "none"
@@ -257,13 +236,13 @@ def run_trial(
         feedback,
         trial_id=trial_id,
         phase="feedback",
-        deadline_s=_deadline_s(feedback_duration),
+        deadline_s=resolve_deadline(feedback_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=condition_name,
         task_factors={
             "stage": "feedback",
-            "pattern_id": pattern.pattern_id,
+            "pattern_id": pattern_id,
             "actual_weather": actual_weather,
             "predicted_weather": predicted_weather,
             "timed_out": timed_out,
@@ -283,7 +262,7 @@ def run_trial(
         iti,
         trial_id=trial_id,
         phase="inter_trial_interval",
-        deadline_s=_deadline_s(iti_duration),
+        deadline_s=resolve_deadline(iti_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=condition_name,

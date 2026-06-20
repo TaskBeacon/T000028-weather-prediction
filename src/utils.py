@@ -100,18 +100,15 @@ class Controller:
         correct_delta: int = 1,
         incorrect_delta: int = -1,
         timeout_delta: int = 0,
-        random_seed: int | None = None,
         enable_logging: bool = True,
     ) -> None:
         self.patterns: list[PatternSpec] = list(patterns or DEFAULT_PATTERNS)
-        self._pattern_weight_sum = float(sum(max(1e-6, p.weight) for p in self.patterns))
 
         self.initial_score = int(initial_score)
         self.correct_delta = int(correct_delta)
         self.incorrect_delta = int(incorrect_delta)
         self.timeout_delta = int(timeout_delta)
         self.enable_logging = bool(enable_logging)
-        self.rng = random.Random(random_seed)
 
         self.current_score = int(initial_score)
         self.trial_count_total = 0
@@ -129,39 +126,12 @@ class Controller:
             correct_delta=_safe_int(config.get("correct_delta", 1), 1),
             incorrect_delta=_safe_int(config.get("incorrect_delta", -1), -1),
             timeout_delta=_safe_int(config.get("timeout_delta", 0), 0),
-            random_seed=config.get("random_seed", None),
             enable_logging=bool(config.get("enable_logging", True)),
         )
 
     def start_block(self, block_idx: int) -> None:
         self.block_idx = int(block_idx)
         self.trial_count_block = 0
-
-    def next_trial_id(self) -> int:
-        return int(self.trial_count_total) + 1
-
-    def sample_duration(self, value: Any, default: float) -> float:
-        if isinstance(value, (int, float)):
-            return max(0.0, float(value))
-        if isinstance(value, (list, tuple)) and len(value) >= 2:
-            low = _safe_float(value[0], default)
-            high = _safe_float(value[1], default)
-            if high < low:
-                low, high = high, low
-            return max(0.0, float(self.rng.uniform(low, high)))
-        return max(0.0, float(default))
-
-    def draw_pattern(self) -> PatternSpec:
-        token = self.rng.uniform(0.0, self._pattern_weight_sum)
-        acc = 0.0
-        for pattern in self.patterns:
-            acc += max(1e-6, pattern.weight)
-            if token <= acc:
-                return pattern
-        return self.patterns[-1]
-
-    def sample_weather(self, pattern: PatternSpec) -> str:
-        return "sun" if self.rng.random() < pattern.sun_probability else "rain"
 
     def apply_score(self, is_correct: bool | None) -> dict[str, int]:
         score_before = int(self.current_score)
@@ -192,3 +162,52 @@ class Controller:
                 f"correct={record.get('is_correct', None)} "
                 f"score={record.get('score_after', self.current_score)}"
             )
+
+
+def generate_weather_conditions(
+    n_trials: int,
+    condition_labels: list[Any] | None = None,
+    *,
+    seed: int = 0,
+    patterns: list[PatternSpec] | tuple[PatternSpec, ...] | None = None,
+) -> list[tuple[str, str, tuple[int, int, int, int], float, str]]:
+    """Build concrete cue-pattern and weather outcomes during block scheduling."""
+    labels = [str(label).strip().lower() for label in (condition_labels or ["probabilistic_classification"])]
+    if not labels:
+        labels = ["probabilistic_classification"]
+    pattern_list = list(patterns or DEFAULT_PATTERNS)
+    rng = random.Random(int(seed))
+    weights = [max(1e-6, float(pattern.weight)) for pattern in pattern_list]
+
+    scheduled: list[tuple[str, str, tuple[int, int, int, int], float, str]] = []
+    for trial_index in range(int(n_trials)):
+        condition_name = labels[trial_index % len(labels)]
+        pattern = rng.choices(pattern_list, weights=weights, k=1)[0]
+        actual_weather = "sun" if rng.random() < float(pattern.sun_probability) else "rain"
+        scheduled.append(
+            (
+                condition_name,
+                str(pattern.pattern_id),
+                tuple(int(v) for v in pattern.cards),
+                float(pattern.sun_probability),
+                actual_weather,
+            )
+        )
+    return scheduled
+
+
+def weather_condition_to_trial_info(condition: Any) -> dict[str, Any]:
+    """Decode a scheduled weather-prediction condition tuple."""
+    if isinstance(condition, (tuple, list)) and len(condition) >= 5:
+        condition_name, pattern_id, cards, sun_probability, actual_weather = condition[:5]
+        parsed_cards = _coerce_cards(cards)
+        if parsed_cards is None:
+            raise ValueError(f"Invalid weather card pattern in condition: {condition!r}")
+        return {
+            "condition": str(condition_name).strip().lower(),
+            "pattern_id": str(pattern_id),
+            "cards": parsed_cards,
+            "sun_probability": float(sun_probability),
+            "actual_weather": str(actual_weather).strip().lower(),
+        }
+    raise ValueError(f"Expected scheduled weather condition tuple, got {condition!r}")
